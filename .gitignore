@@ -1,2 +1,6 @@
 geovenv
 geomytry/__pycache__
+__pycache__
+build
+geomytry.egg-info
+dist
