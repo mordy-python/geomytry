@@ -2,7 +2,7 @@
 
 ## Library for working with geometry
 
-install by running ```pip install geomytry``` or if on *NIX systems run ```pip3 install geomytry```
+Install by running ```pip install geomytry``` or if on *NIX systems run ```pip3 install geomytry```
 
 ### The circles modules
 
