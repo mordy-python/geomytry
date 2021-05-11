@@ -1,13 +1,21 @@
-import constants
+from . import constants
 
-def circumference(radius):
-    c = (2*radius)*constants.PI
-    return c
-def circumference_diameter(diameter):
+
+def circumference(radius: float):
+    c = (2 * radius) * constants.PI
+    return float(round(c, 4))
+
+
+def circumference_from_diameter(diameter: float):
     c = diameter * constants.PI
-def radius(circumference):
-    r = circumference/constants.TWOPI
-    return r
-def arc_length(angle, circumference):
-    al = (angle/360)*circumference
-    return al
+    return float(round(c, 4))
+
+
+def radius(circumference: float):
+    r = circumference / constants.TWOPI
+    return float(round(r, 4))
+
+
+def arc_length(angle: float, circumference: float):
+    al = (angle / 360) * circumference
+    return float(round(al, 4))
