@@ -1,8 +1,0 @@
-geovenv
-geomytry/__pycache__
-__pycache__
-build
-geomytry.egg-info
-dist
-.rm_shit
-.gitignore
