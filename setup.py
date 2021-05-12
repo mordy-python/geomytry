@@ -5,13 +5,14 @@ with open("DOCS.md") as readme_file:
 
 setup_args = dict(
     name="geomytry",
-    version="0.2.1",
+    version="0.2.2",
     description="Useful functions to work with geometry",
     long_description_content_type="text/markdown",
     long_description=README,
     license="MIT",
     packages=find_packages(),
     author="Mordy Waldo",
+    python_requires='>=3.0.0',
     author_email="imky171@gmail.com",
     keywords=["Geometry", "Math", "Shapes"],
     url="https://github.com/mordy-python/geomytry",
