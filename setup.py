@@ -12,7 +12,7 @@ setup_args = dict(
     license="MIT",
     packages=find_packages(),
     author="Mordy Waldo",
-    python_requires='>=3.0.0',
+    python_requires=">=3.0.0",
     author_email="imky171@gmail.com",
     keywords=["Geometry", "Math", "Shapes"],
     url="https://github.com/mordy-python/geomytry",
