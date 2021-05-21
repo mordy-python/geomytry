@@ -5,7 +5,7 @@ with open("DOCS.md") as readme_file:
 
 setup_args = dict(
     name="geomytry",
-    version="0.2.2",
+    version="0.2.5",
     description="Useful functions to work with geometry",
     long_description_content_type="text/markdown",
     long_description=README,
