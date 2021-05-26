@@ -13,5 +13,12 @@ def surface_area_rect(length, width, height):
 def surface_area_cube(side_length):
 	total_area = 2*(side_length**2)
 	return float(round(total_area,4))
+def volume_cube(side_length):
+	total_vol = side_length**3
+	return float(round(total_vol, 4))
+
 def perimiter(side_length):
   return side_length * 4
+def volume_rect(length, width, height):
+	total_vol = length*width*height
+	return float(round(total_vol, 4))
